@@ -30,7 +30,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         server-id: github
-        settings-path: ${{ github.workspace }}
+        settings-path: ${{ github.workspace }} 
         cache: maven
     - name: Build, test, and analyze
       env:
